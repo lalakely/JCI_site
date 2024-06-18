@@ -294,6 +294,8 @@ body {
 
 .grid-list {
   display: grid;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -470,6 +472,7 @@ body {
   padding :50px 30px;
   text-align: center;
   border-radius: var(--radius-5);
+  height: 600px;
 }
 
 .category-card .card-icon {
@@ -606,7 +609,7 @@ body {
   --ionicon-stroke-width: 50px;
 }
 
-.course-card .card-content { padding: 25px; }
+.course-card .card-content { padding: 25px; height:300px; }
 
 .course-card .badge {
   background-color: var(--kappel_15);
@@ -619,7 +622,7 @@ body {
 .course-card .card-title {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  /* -webkit-line-clamp: 2; */
   overflow: hidden;
   margin-block: 15px 8px;
   transition: var(--transition-1);
@@ -737,6 +740,15 @@ body {
   text-transform: uppercase;
 }
 
+.partenaires {
+  padding: 100px 0px 0px 0px;
+}
+
+
+.logo_partenaires {
+  width: 200px;
+  height: 200px;
+}
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
