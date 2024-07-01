@@ -299,6 +299,13 @@ body {
   gap: 30px;
 }
 
+.list-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .category-card,
 .stats-card { background-color: hsla(var(--color) , 0.1);}
 
@@ -578,6 +585,8 @@ body {
   background-color: var(--white);
   border-radius: var(--radius-5);
   overflow: hidden;
+  width: 400px;
+  margin: 10px;
 }
 
 .course-card .img-cover{ transition: var(--transition-2);}
@@ -609,7 +618,7 @@ body {
   --ionicon-stroke-width: 50px;
 }
 
-.course-card .card-content { padding: 25px; height:300px; }
+.course-card .card-content { padding: 25px; height:320px; }
 
 .course-card .badge {
   background-color: var(--kappel_15);
